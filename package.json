@@ -1,0 +1,28 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "description": "A simple react starter with browserify and babel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduzambl/ReactStarter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduzambl/ReactStarter/issues"
+  },
+  "homepage": "https://github.com/eduzambl/ReactStarter#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.1",
+    "watchify": "^3.7.0"
+  }
+}
